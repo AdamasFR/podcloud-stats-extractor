@@ -1,0 +1,15 @@
+{
+  "name": "podcloud-stats-extractor",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/getEcoutesAnneeDerniere.js"
+  }
+}
